@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Register Form</title>
+</head>
+<body>
+
+<h1>Register</h1>
+
+<form>
+	<!-- Name -->
+	<div>
+	<label for="firstName">First Name:</label>
+		<input id="firstName" type="text" name="firstName" placeholder="First Name" required>
+	<label for="lastName"></label>
+		<input id="lastName" type="text" name="lastName" placeholder="Last Name" required>
+	</div>
+	
+	<!-- Gender -->
+	<div>
+	<label for="maleRadioButton">Male</label>
+		<input id="maleRadioButton" type="radio" name="
+	<label for="femaleRadioButton">Female</label>
+		<input id="femaleRadioButton" type="radio" name="genderChoice" value="Female">
+	<label for="otherRadioButton">Other</label>
+		<input id="otherRadioButton" type="radio" name="genderChoice" value="Other">
+	</div>
+	
+	<!-- Email & Password -->
+	<div>
+	<label for="email">Email: </label>
+		<input id="email" type="email" name="Email" placeholder="Email Address" required>
+	<label for="password">Password: </label>
+		<input id="password" type="Password" name="Password" pattern=".{5,10}" required title="Password must be between 5 and 10  characters" placeholder="Password" required>
+	</div>
+
+	<!-- Birthday -->
+	<div>
+	<label>Birthday: 
+		<select name="Month">
+			<option selected>Month</option>
+			<option>Jan</option>
+			<option>Feb</option>
+			<option>Mar</option>
+			<option>May</option>
+			<option>Jun</option>
+			<option>Jul</option>
+			<option>Aug</option>
+			<option>Sep</option>
+			<option>Oct</option>
+			<option>Nov</option>
+			<option>Dec</option>
+		</select>
+		<select name="Day" >
+			<option selected>Day</option>
+			<option >01</option>
+			<option>02</option>
+			<option>03</option>
+			<option>04</option>
+			<option>05</option>
+		</select>
+		<select name="Year">
+			<option selected>Year</option>
+			<option>2015</option>
+			<option>2016</option>
+			<option>2017</option>
+		</select>
+	</label>
+	</div>
+
+	<div>
+		<label for="agreed">I agree to the terms and conditions</label>
+		<input id="agreed" type="checkbox" name="agreement_is">
+	</div>
+
+	<button>Submit</button>
+</form>
+
+
+</body>
+</html>

@@ -1,0 +1,31 @@
+body {
+	background: pink; 
+/*	background: url(https://s-media-cache-ak0.pinimg.com/236x/ab/44/71/ab4471f53db52cbf3fb7e900d8374bca--printable-stencil-patterns-printable-templates.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;*/
+}
+h1 {
+	color: #8b43c6;
+	/*border-color: purple;
+	border-width: 5px;
+	border-style: solid;*/
+
+	border: 8px dashed rgba(0,0,100,.5);
+}
+
+h1:nth-child(2){
+	color: rgb(240,100,100);
+}
+
+h1:nth-child(3){
+	color: rgba(0,200,100,.8);
+}
+
+li {
+	color: green;
+}
+
+h4 {
+	background: rgb(0,0,200);
+}
+
