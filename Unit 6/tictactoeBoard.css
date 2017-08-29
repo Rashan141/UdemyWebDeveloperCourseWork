@@ -1,0 +1,29 @@
+h1 {
+	text-align: center;
+}
+
+table {
+	margin: auto;
+	border-collapse: collapse;
+}
+
+table td {
+	height: 100px;
+	width: 100px;
+	text-align: center;
+	border: 1.5px solid black;
+}
+
+.corner {
+	border: 0px;
+}
+
+.outer-middle-horizontal {
+	border-left: 0px;
+	border-right: 0px;
+}
+
+.outer-middle-vertical {
+	border-top: 0px;
+	border-bottom: 0px;
+}

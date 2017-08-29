@@ -1,0 +1,37 @@
+/*font family*/
+p {
+	font-family: arial;
+}
+
+h1{
+	font-family: Vast Shadow;
+}
+
+/*font sizes*/
+p {
+	font-size: 12px;
+}
+
+span {
+	font-size: 2em;
+}
+
+/*font weight*/
+p {
+	font-weight: normal;
+}
+
+/*line-height*/
+p {
+	line-height: 1.5;
+}
+
+/*text-align*/
+p{
+	text-align: center;
+}
+
+/*text-decoration*/
+p {
+	text-decoration: line-through;
+}
